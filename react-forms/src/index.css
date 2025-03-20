@@ -28,6 +28,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgba(20, 8, 90, 0.4);
+}
+form {
+  display: flex;
+  place-items: center;
 }
 
 h1 {
@@ -47,7 +52,9 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: black;
+  color: white;
+  background-color: #646cff;
 }
 button:focus,
 button:focus-visible {
